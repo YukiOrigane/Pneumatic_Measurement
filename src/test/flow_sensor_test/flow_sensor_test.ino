@@ -12,7 +12,7 @@ int16_t flow_sensor_value = 0;
 double measured_flow_l_min = 0.0;
 
 unsigned int flip(){
-    MPLog("raw value: %d, measured pressure: %.2lf L/min \r\n", flow_sensor_value, measured_flow_l_min);
+    MPLog("raw value: %d, measured flow: %.2lf L/min \r\n", flow_sensor_value, measured_flow_l_min);
     return INTERVAL_US;
 }
 
